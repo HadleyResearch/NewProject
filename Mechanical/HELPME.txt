@@ -1,0 +1,20 @@
+File: HELPME.txt
+Description: This file contains instructions for users and developers to help
+    navigate the standard NBitWonder project hierarchy. Instructions are
+    provided concerning what the specified directory hierarchy contains and
+    what files should be included.
+
+Current Location: <project_root>/Mechanical
+Description of hierarchy:
+    This hierarchy contains all relevant files for the mechanical design of the
+project. Design files are separated into components. Should your design contain
+multiple mechanical components, each component should contain its own hierarchy
+within <project_root>/Electronics. If the project is large (many related
+mechanical components), consider grouping multiple components together under a 
+common system hierarchy.
+    Each design component hierarchy should contain separate folders for each
+version of the component. NBitWonder project versioning begins at 1.0, 
+incrementing by 1 for major versions and 0.1 for minor versions. If the project
+is a large project (many minor versions for each major version), consider grouping
+minor versions under shared major version hierarchies.
+

@@ -1,0 +1,14 @@
+File: HELPME.txt
+Description: This file contains instructions for users and developers to help
+    navigate the standard NBitWonder project hierarchy. Instructions are
+    provided concerning what the specified directory hierarchy contains and
+    what files should be included.
+
+Current Location: <project_root>/Simulation
+Description of hierarchy:
+    The Simulation hierarchy contains any simulation files used for design and
+development of the project. Examples include a filter design simulation written
+in Matlab, thermal analysis simulations, radio transmitter/receiver simulations,
+etc.
+    The Simulation hierarchy contains separate sub-hierarchies for each simulated
+project component.
