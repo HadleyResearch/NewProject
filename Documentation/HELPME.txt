@@ -4,7 +4,7 @@ Description: This file contains instructions for users and developers to help
     provided concerning what the specified directory hierarchy contains and
     what files should be included.
 
-Current Location: <project_root>/Documents
+Current Location: <project_root>/Documentation
 Description of hierarchy:
     This folder contains documentation files for the current OSHW project.
 Delete any file hierarchies not in use for your project.
